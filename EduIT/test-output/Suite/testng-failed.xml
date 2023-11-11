@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="PruebasenFirefox(failed)">
+    <parameter name="navegador" value="Firefox"/>
+    <classes>
+      <class name="pruebas.CrossBrowserTest">
+        <methods>
+          <include name="buscarPalabra"/>
+          <include name="setUp"/>
+          <include name="cierraNavegador"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pruebas.CrossBrowserTest -->
+    </classes>
+  </test> <!-- PruebasenFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
